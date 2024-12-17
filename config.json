@@ -1,15 +1,15 @@
 {
-    "stratumPort": 8000,
+    "stratumPort": 7777,
     "stratumSSL": {
         "enabled": false,
         "key" : "key.pem",
         "cert" : "cert.pem"
     },
 	"pool" : {
-		"host" : "na.luckpool.net",
-		"port" : 3958,
-        "ssl" : true
+		"host" : "pool-url",
+		"port" : "pool-port",
+        "ssl" : false
  	},
-    "wallet": false,
-    "password": false
+    "wallet": "verus-wallet",
+    "password": "pool-param"
 }
