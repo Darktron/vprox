@@ -11,5 +11,6 @@
         "ssl" : false
  	},
     "wallet": "verus-wallet",
-    "password": "pool-param"
+    "password": "pool-param",
+    "threads": "auto"
 }
