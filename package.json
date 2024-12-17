@@ -1,6 +1,6 @@
 {
   "name": "VerusProxy",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Stratum Proxy for VerusCoin Pools",
   "main": "proxy.js"
 }
