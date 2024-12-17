@@ -1,4 +1,4 @@
-# verusProxy
+# VerusProxy
 **Experimental** stratum proxy for VerusCoin based mining pools. This is currently work in progress.  
   
 Proxy requires miner to support extra nonce subscription (xnsub) or will result in mostly low difficulty rejects.  
@@ -7,7 +7,7 @@ If the pool connection is lost, a new extra nonce will be assigned by the pool a
 ## Setup
     sudo apt install nodejs npm
     git clone https://github.com/Darktron/verusproxy
-    cd verusProxy
+    cd verusproxy
     npm install
 
 ## Modify config.js
