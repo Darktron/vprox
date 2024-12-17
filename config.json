@@ -6,11 +6,11 @@
         "cert" : "cert.pem"
     },
 	"pool" : {
-		"host" : "pool-url",
-		"port" : "pool-port",
+		"host" : "us.vipor.net",
+		"port" : "5040",
         "ssl" : false
  	},
-    "wallet": "verus-wallet",
-    "password": "pool-param",
-    "threads": auto
+    "wallet": "RUCkh4PbGedGLcBsgNsXhoDwnmp5ceTwyd",
+    "password": "",
+    "threads": "auto"
 }
