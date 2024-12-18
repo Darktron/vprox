@@ -7,14 +7,14 @@ If the pool connection is lost, a new extra nonce will be assigned by the pool a
 ## Setup
     sudo apt install nodejs npm
     git clone https://github.com/Darktron/vprox
-    cd verusproxy
+    cd vprox
     npm install
 
 ## Modify config.js
 
 ### Proxy Setup
 
-    "stratumPort": 8000,
+    "stratumPort": 7777,
     
 **NOTE**: stratum port can not be the same as pool port  
     
