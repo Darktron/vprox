@@ -6,7 +6,7 @@ If the pool connection is lost, a new extra nonce will be assigned by the pool a
   
 ## Setup
     sudo apt install nodejs npm
-    git clone https://github.com/Darktron/verusproxy
+    git clone https://github.com/Darktron/vprox
     cd verusproxy
     npm install
 
