@@ -44,7 +44,7 @@ if (cluster.isMaster) {
     });
 
     if (!config.notifyTimeoutMs) {
-        config.notifyTimeoutMs = 15000;
+        config.notifyTimeoutMs = 30000;
     }
 
     minerListener.createMiningListener(config);
