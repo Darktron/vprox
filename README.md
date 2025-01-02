@@ -6,7 +6,7 @@ If the pool connection is lost, a new extra nonce will be assigned by the pool a
   
 ## Setup
     sudo apt install nodejs npm git -y
-    git clone https://github.com/Darktron/vprox
+    git clone https://github.com/Darktron/vprox.git
     cd vprox
     npm install
 
