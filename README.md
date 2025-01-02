@@ -5,7 +5,7 @@ Proxy requires miner to support extra nonce subscription (xnsub) or will result 
 If the pool connection is lost, a new extra nonce will be assigned by the pool and sent to miners (xnsub)  
   
 ## Setup
-    sudo apt install nodejs npm -y
+    sudo apt install nodejs npm git -y
     git clone https://github.com/Darktron/vprox
     cd vprox
     npm install
