@@ -26,7 +26,7 @@ If needed, generate self sign certificate to use with proxy stratum port
 #### Enable TLS/SSL config
 
     "stratumSSL": {
-        "enabled": true,
+        "enabled": false,
         "key" : "key.pem",
         "cert" : "cert.pem"
     },
@@ -36,7 +36,7 @@ If needed, generate self sign certificate to use with proxy stratum port
     "pool" : {
       "host" : "na.luckpool.net",
       "port" : 3958,
-      "ssl"  :  true
+      "ssl"  :  false
     }
 
 #### Miner Authorization
